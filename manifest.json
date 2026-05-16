@@ -1,0 +1,16 @@
+{
+  "name": "Sprout.io",
+  "short_name": "Sprout",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#011810",
+  "theme_color": "#00ff94",
+  "description": "AI-powered Smart Irrigation Robot Controller",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/1892/1892747.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
