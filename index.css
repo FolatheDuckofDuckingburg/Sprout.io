@@ -1,0 +1,28 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom scrollbar hiding (we use this in your App.tsx for the phone screen) */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Make sure the background covers the whole screen */
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f0fdf4; /* A soft emerald fallback color */
+}
+
+/* Ensure smooth scrolling across the app */
+html {
+  scroll-behavior: smooth;
+}
